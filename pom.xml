@@ -1,0 +1,39 @@
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tocea.scertify.migration64</groupId>
+  <artifactId>cdt-scertify-migration64-parent</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>cdt-scertify-migration64-plugin</module>
+    <!--<module>cdt-scertify-migration64-updatesite</module>-->
+  </modules>
+ 
+  <properties>
+    <tycho-version>0.23.1</tycho-version>
+  </properties>
+
+  <repositories>
+   <repository>
+     <id>luna</id>
+     <layout>p2</layout>
+     <url>http://download.eclipse.org/releases/luna</url>
+   </repository>
+  </repositories>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

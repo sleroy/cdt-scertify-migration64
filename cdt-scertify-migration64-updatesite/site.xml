@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.tocea.scertify.migration64-feature_0.2.0.201507281359.jar" id="com.tocea.scertify.migration64-feature" version="0.2.0.201507281359" os="linux,win32" nl="en,fr"/>
+</site>

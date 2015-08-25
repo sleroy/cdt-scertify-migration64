@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.tocea.scertify.migration64</groupId>
+    <artifactId>cdt-scertify-migration64-parent</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+  </parent>
+
+   <artifactId>cdt-scertify-migration64-updatesite</artifactId>
+  <packaging>eclipse-plugin</packaging>
+
+</project>
+

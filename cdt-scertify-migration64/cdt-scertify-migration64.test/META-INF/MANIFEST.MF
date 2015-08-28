@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: cdt-scertify-migration64 Test Fragment
+Bundle-SymbolicName: cdt-scertify-migration64.test
+Bundle-Version: 0.1.0.qualifier
+Fragment-Host: cdt-scertify-migration64.core;bundle-version="0.1.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.jdt.junit4.runtime;bundle-version="1.1.0",
+ org.junit;bundle-version="4.11"

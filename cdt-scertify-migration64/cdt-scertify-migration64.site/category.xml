@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/cdt-scertify-migration64.feature_0.0.0.jar" id="cdt-scertify-migration64.feature" version="0.0.0">
+    <category name="cdt-scertify-migration64"/>
+   </feature>
+   <feature url="features/cdt-scertify-migration64.feature.source_0.0.0.jar" id="cdt-scertify-migration64.feature.source" version="0.0.0">
+    <category name="cdt-scertify-migration64 Developer Resources"/>
+   </feature>
+</site>

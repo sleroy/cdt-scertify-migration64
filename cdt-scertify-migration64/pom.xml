@@ -139,7 +139,6 @@
   </profiles>
   <modules>
     <module>cdt-scertify-migration64.core</module>
-    <module>cdt-scertify-migration64.test</module>
     <module>cdt-scertify-migration64.feature</module>
     <module>cdt-scertify-migration64.site</module>
   </modules>
